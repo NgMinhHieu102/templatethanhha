@@ -165,6 +165,11 @@ main { overflow: hidden; }
 .service-card .service-image { clip-path:inset(0 0 100% 0);transition:clip-path 1s cubic-bezier(.22,.7,.2,1); }
 .service-card.scroll-revealed .service-image { clip-path:inset(0);transition-delay:.12s; }
 @media(prefers-reduced-motion:reduce){.services-head,.service-card,.signals-copy,.signal-visual,.approach-copy,.approach-visual,.voice-image,.voice-copy,.insight-card,.closing>div:last-child,.footer-brand,.footer-links,.footer-bottom,.about-visual{opacity:1;transform:none;transition:none}}
+
+.wordmark { gap:0; }
+.brand-logo { display:block;width:172px;height:auto;flex:none;border-radius:4px; }
+.footer-brand .brand-logo { width:210px; }
+@media(max-width:700px){.site-nav .brand-logo{width:112px}}
 @media(prefers-reduced-motion:reduce){.service-card .service-image,.service-card.scroll-revealed .service-image{clip-path:none;transition:none}}
 
 /* Contact pill hover matches the reference Framer control. */

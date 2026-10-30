@@ -13,8 +13,8 @@ const inter = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Acre — Grow with intelligence",
-  description: "Better insights for healthier fields, smarter resources, and stronger harvests.",
+  title: "Thanh Hà — Đồng hành cùng nông nghiệp",
+  description: "Thấu hiểu đồng ruộng để cây trồng khỏe mạnh, tài nguyên được dùng hiệu quả và mùa vụ bội thu.",
 };
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full antialiased`}>
+    <html lang="vi" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
